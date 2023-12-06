@@ -54,7 +54,7 @@ const HeroSection = () => {
           </Link>
           <span className="mx-2"></span>
           <a
-            href="/sami_ibrahim_resume_EU.pdf"
+            href="/SAMI_IBRAHIM_Resume_EU.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
@@ -81,7 +81,8 @@ const HeroSection = () => {
           offset={-100}
           duration={500}
         >
-          <HiArrowDown size={35} className="animate-bounce" />
+           <HiArrowDown size={35} className="animate-bounce hidden md:inline-block" />
+   
         </Link>
       </div>
     </section>
