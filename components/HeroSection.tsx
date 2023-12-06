@@ -54,7 +54,7 @@ const HeroSection = () => {
           </Link>
           <span className="mx-2"></span>
           <a       
-            href="/SAMI_IBRAHIM_Resume_EU.pdf"
+            href="/Resume_eu.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
