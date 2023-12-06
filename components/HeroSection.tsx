@@ -53,7 +53,7 @@ const HeroSection = () => {
             Projects
           </Link>
           <span className="mx-2"></span>
-          <a
+          <a       
             href="/SAMI_IBRAHIM_Resume_EU.pdf"
             target="_blank"
             rel="noopener noreferrer"
