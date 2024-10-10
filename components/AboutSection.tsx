@@ -3,12 +3,15 @@ import React from "react";
 import Image from "next/image";
 
 const skills = [
+  { skill: "Android Studio" },
+  { skill: "Kotlin" },
   { skill: "HTML" },
   { skill: "CSS" },
   { skill: "JavaScript" },
   { skill: "TypeScript" },
   { skill: "Python" },
   { skill: "React" },
+  { skill: "React Native" },
   { skill: "Next.js" },
   { skill: "Tailwind CSS" },
   { skill: "Git" },
@@ -59,7 +62,7 @@ const AboutSection = () => {
               <div>
                 <h2 className="font-bold text-xl">Bachelor of Economics, Business Administration and Marketing</h2>
                 <p className="font-bold">Tishreen University, Latakia, Syria</p>
-                <p>2015 - 2018</p>
+                <p>2017 - 2019</p>
               </div>
             </div>
             
