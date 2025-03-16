@@ -48,7 +48,7 @@ const AboutSection = () => {
               <div>
                 <h2 className="font-bold text-xl">Bachelor of Computer Science </h2>
                 <p className="font-bold">Concordia University, Montreal, QC</p>
-                <p>2020 - 2023</p>
+                <p>2021 - 2024</p>
               </div>
             </div>
             <div className="flex items-center mt-6 ">
@@ -62,7 +62,7 @@ const AboutSection = () => {
               <div>
                 <h2 className="font-bold text-xl">Bachelor of Economics, Business Administration and Marketing</h2>
                 <p className="font-bold">Tishreen University, Latakia, Syria</p>
-                <p>2017 - 2019</p>
+                <p>2016 - 2019</p>
               </div>
             </div>
             
