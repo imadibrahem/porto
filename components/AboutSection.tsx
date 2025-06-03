@@ -19,7 +19,6 @@ const skills = [
   { skill: "Java" },
   { skill: "C#" },
   { skill: "Unity" },
-  { skill: "Davinci Resolve" },
   { skill: "C++" },
   { skill: "SQL" },
 ];
