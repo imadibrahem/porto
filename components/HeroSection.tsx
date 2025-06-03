@@ -29,14 +29,9 @@ const HeroSection = () => {
           <p className="text-lg mt-4 mb-6 md:text-2xl">
             I&#39;m a{" "}
             <span className="font-semibold text-teal-300">
-              Computer science{" "}
+              Business Informatics "Wirtschaftsinformatik"{" "}
             </span>
-            graduate from Concordia University based in Montreal, Canada, and a proud holder of a Bachelor of Economics with a specialization in 
-            <span className="font-semibold text-teal-300">
-            {" "}Marketing{" "}
-            </span>
-            
-            from Tishreen University. I&apos;m passionate about blending technical prowess with marketing acumen to create impactful software solutions that resonate with users.
+            graduate from TU-Berlin and currently based in Berlin, Germany. I&apos;m passionate about creating impactful software solutions that resonate with users.
 
              
 
@@ -54,7 +49,7 @@ const HeroSection = () => {
           </Link>
           <span className="mx-2"></span>
           <a       
-            href="/GER-Sami-Ibrahim-Resume.pdf"
+            href="/cv-Imad Ibrahem.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
@@ -63,7 +58,7 @@ const HeroSection = () => {
           </a>
           <span className="mx-2"></span>
           <a
-            href="https://www.linkedin.com/in/sami-23-ibrahim/"
+            href="https://www.linkedin.com/in/imad-ibrahem/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"

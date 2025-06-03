@@ -3,6 +3,7 @@ import React from "react";
 import Image from "next/image";
 
 const skills = [
+  { skill: "Java" },
   { skill: "Android Studio" },
   { skill: "Kotlin" },
   { skill: "HTML" },
@@ -97,11 +98,11 @@ const AboutSection = () => {
  
   <h2 className="text-xl font-bold mb-4">🌟 Skills & Attributes:</h2>
   <p className="mb-4">
-    I&apos;m a self-starter and analytical thinker, with a knack for solving problems and a drive to learn and innovate. My dual background in Computer Science and Economics positions me uniquely, enabling me to bring diverse perspectives to both individual and team environments.
+    I&apos;m a self-starter and analytical thinker, with a knack for solving problems and a drive to learn and innovate. My dual background in Business Informatics and Architecture positions me uniquely, enabling me to bring diverse perspectives to both individual and team environments.
   </p>
   <h2 className="text-xl font-bold mb-4">🔗 Connect With Me:</h2>
   <p>
-    sami23ibrahim@gmail.com
+    imadibrahem23@gmail.com
  
             </p>
           </div>
