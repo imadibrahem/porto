@@ -29,7 +29,7 @@ const HeroSection = () => {
           <p className="text-lg mt-4 mb-6 md:text-2xl">
             I&#39;m a{" "}
             <span className="font-semibold text-teal-300">
-              Business Informatics "Wirtschaftsinformatik"{" "}
+              Business Informatics &#39;Wirtschaftsinformatik&#39;{" "}
             </span>
             graduate from TU-Berlin and currently based in Berlin, Germany. I&apos;m passionate about creating impactful software solutions that resonate with users.
 
