@@ -12,7 +12,7 @@ const HeroSection = () => {
       <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-38 md:flex-row md:space-x-4 md:text-left" style={{ marginBottom: '-66px' }}>
         <div className="md:mt-2 md:w-1/2">
           <Image  
-            src="/sami2.jpg"
+            src="/profile pic 1.jpg"
             alt=""
             width={325}
             height={325}
@@ -23,7 +23,7 @@ const HeroSection = () => {
          <div className="md:mt-2 md:w-3/5">
   <div className="flex items-center">
     <span className="inline-block align-middle" style={{ fontSize: '2.8em', marginRight: '0.5em' }}>👋</span>
-    <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-4xl">Hi, I&#39;m SAMI!</h1>
+    <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-4xl">Hi, I&#39;m IMAD!</h1>
   </div>
          
           <p className="text-lg mt-4 mb-6 md:text-2xl">

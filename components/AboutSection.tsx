@@ -4,24 +4,26 @@ import Image from "next/image";
 
 const skills = [
   { skill: "Java" },
-  { skill: "Android Studio" },
+  { skill: "Python" },
+  { skill: "SQL" },
+  { skill: "Flutter" },
+  { skill: "Scala" },
+  { skill: "R" },
+  { skill: "Haskell" },
   { skill: "Kotlin" },
   { skill: "HTML" },
   { skill: "CSS" },
   { skill: "JavaScript" },
   { skill: "TypeScript" },
-  { skill: "Python" },
+  { skill: "C#" },
+  { skill: "C++" },
+  { skill: "Android Studio" },
   { skill: "React" },
   { skill: "React Native" },
   { skill: "Next.js" },
-  { skill: "Tailwind CSS" },
+  { skill: "Spring Boot" },
+  { skill: "REST APIs" },
   { skill: "Git" },
-  { skill: "GitHub" },
-  { skill: "Java" },
-  { skill: "C#" },
-  { skill: "Unity" },
-  { skill: "C++" },
-  { skill: "SQL" },
 ];
 
 const AboutSection = () => {
@@ -39,16 +41,16 @@ const AboutSection = () => {
             <h1 className="text-center text-xl font-bold mb-6 md:text-left">Education</h1>
             <div className="flex items-center mb-4 align-bottom mt-9">
               <Image
-                src="/concordiaLogo.png"
-                alt="Concordia University Icon"
+                src="/TU_Logo.png"
+                alt="TU-Berlin Icon"
                 width={80}
                 height={50}
                 className="mr-6" 
               />
               <div>
-                <h2 className="font-bold text-xl">Bachelor of Computer Science </h2>
-                <p className="font-bold">Concordia University, Montreal, QC</p>
-                <p>2021 - 2024</p>
+                <h2 className="font-bold text-xl">Bachelor of Business Informatics </h2>
+                <p className="font-bold">TU-Berlin</p>
+                <p>2019 - 2025</p>
               </div>
             </div>
             <div className="flex items-center mt-6 ">
@@ -60,9 +62,9 @@ const AboutSection = () => {
                 className="mr-6" 
               />
               <div>
-                <h2 className="font-bold text-xl">Bachelor of Economics, Business Administration and Marketing</h2>
+                <h2 className="font-bold text-xl">Bachelor of Architecture</h2>
                 <p className="font-bold">Tishreen University, Latakia, Syria</p>
-                <p>2016 - 2019</p>
+                <p>2011 - 2015</p>
               </div>
             </div>
             
@@ -89,12 +91,11 @@ const AboutSection = () => {
   
   <h2 className="text-xl font-bold mb-4">🎓 Educational Journey:</h2>
   <p className="mb-4">
-    Graduating with distinction, my academic journey in Computer Science has been a blend of learning and practical application. I delved deep into subjects like Data Structures, Algorithms, Artificial Intelligence, Game Development, and Software Engineering Methodologies, equipping myself with a versatile skill set in Java, Python, and JavaScript.
+    My academic journey in Business Informatics has been a blend of learning and practical application. I delved deep into subjects like Data Structures, Algorithms, Artificial Intelligence, Game Development, and Software Engineering Methodologies, equipping myself with a versatile skill set in Java, Python, and JavaScript.
   </p>
   <h2 className="text-xl font-bold mb-4">💼 Professional Experience:</h2>
   <p className="mb-4">
-    My stint as a Junior Software Engineer at Zetane Systems Inc. was a learning curve where I wore multiple hats - from designing and implementing software features to enhancing front-end components and boosting SEO scores to 100%. My role also involved leveraging Google Analytics 4 for event-based tracking, aiding the company in making data-driven decisions.
-  </p>
+    I&#39;ve gained hands-on experience through diverse roles in full-stack development, IT support, and applied AI. During my internship at TU Berlin, I built a campus navigation app using Java, Spring Boot, Flutter, and PostgreSQL. While working at a dental clinic, I improved their website’s SEO, boosting traffic by 17%. I’ve also developed AI-driven projects, including a thesis on genetic algorithm optimization for Murus Galicus board game and a Pac-Man agents using Python.  </p>
  
   <h2 className="text-xl font-bold mb-4">🌟 Skills & Attributes:</h2>
   <p className="mb-4">
