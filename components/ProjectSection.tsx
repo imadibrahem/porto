@@ -257,11 +257,11 @@ const projects = [
   {
     imageWidth: 600,  
     imageHeight: 600, 
-    name: "Serial Cleaners 3D Game",
+    name: "Pacman AI Project",
     description:
-      "3D multiplayer game built in Unity using C#, the Two players work together to clean a crime scene left behind by a serial killer. Their goal is to leave the crime scene squeaky clean in the shortest time possible before the next residents arrive.",
-    images: ["/Serial-Cleaners.png"],
-    github: "https://github.com/sami23ibrahim/Serial-Cleaners/tree/main",
+      "This project is based on the Berkeley Pacman AI project. It allows students to apply various AI techniques. The visualizations and modular structure support experimentation with intelligent agents in the classic Pacman game.",
+    images: ["/pacman.jpg"],
+    github: "https://github.com/imadibrahem/Pacman",
     link: "",
   },
 ];
