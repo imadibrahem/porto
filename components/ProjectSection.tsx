@@ -170,15 +170,11 @@ import { useState } from 'react';
 const ProjectDescription = () => {
   return (
     <div>
-      <p>A cross-platform mobile app developed using Expo and React Native, integrated with Firebase for real-time data storage and management to streamline inventory management.</p>
+      <p>This project is a full Java implementation of the board game Murus Gallicus, featuring a custom AI trained through genetic algorithms. Developed as part of my bachelor thesis, it includes a playable GUI version, several AI difficulty levels, and a Caesar bot that evolves over time using persistent memory and optimization techniques.</p>
       <br></br>
-      <p>The app focuses on managing inventory with different user roles (admin, member, owner) across multiple teams, where owners can assign or remove admin roles from members. This app empowers users to efficiently organize and manage inventory in a collaborative environment, ensuring streamlined operations and real-time updates.</p>
-      
+      <p>The work spans three repositories: a standalone Windows installer, a genetic algorithm environment for optimizing the AI agent, and the full source code of the optimized game. The project integrates advanced concepts such as transposition tables, Zobrist hashing, time management, and move evaluation, demonstrating my ability to combine game development and AI research into a robust, interactive application.</p>
       <br></br>
-  
-      <p>It allows users to create or join teams, manage teams by editing or deleting them, and access the Manage Team screen for sharing invitation codes and approving join requests. The home screen features quick access to app settings, notifications, and seamless navigation between teams.</p>
-      <br></br>
-      <p>The team screen enables adding and organizing inventory on shelves, with search functionality and options for editing, deleting, or generating reports. On the item screen, users can view and manage items with real-time updates, including quantity adjustments, adding new items, and searching for specific items, all within a collaborative environment.</p>
+      <p>This project demonstrates both my programming capability in building complex, modular systems from scratch and my ability to apply artificial intelligence techniques—specifically evolutionary computation—to a real-world problem. It combines research, gameplay design, and AI development into a single, cohesive software package that is both interactive and academically grounded.</p>
     </div>
   );
 };
@@ -206,13 +202,14 @@ const ProjectDescription2 = () => {
 
 const projects = [
   {
-    imageWidth: 600,  
-    imageHeight: 600, 
-    name: "'WeHave' React Native Inventory Management App",
+    imageWidth: 425,
+    imageHeight: 425,
+    name: "'Murus Gallicus' AI – Game & Genetic Algorithm Optimization",
     description: <ProjectDescription />,
-    images: ["/za1.png", "/za.png"], // Array of images
-    github: "https://github.com/sami23ibrahim/NativeApp",
-    link: "https://www.youtube.com/watch?v=TKMJRYsGrOk",
+    images: ["/MurusGalicus_StartWindow.jpg", "/MurusGalicus_GamePlay.jpg"], // Array of images
+    github: "https://github.com/imadibrahem/Murus-Galicus-game",
+    link: "",
+    link2: "https://github.com/imadibrahem/Murus-Galicus-game",
     download:"https://drive.google.com/file/d/17Fe2uYYlYXve7ehwUpD0jpr_5iZq2hnC/view?usp=sharing"
   },
   {
@@ -223,6 +220,7 @@ const projects = [
     images: ["/sa.png", "/fa2.png"], // Array of images
     github: "https://github.com/sami23ibrahim/ShoPping-List-APP",
     link: "https://www.youtube.com/watch?v=D4aVstpxR5M",
+    link2: "",
     download:"https://drive.google.com/file/d/1fx0gpO0AlnnhKdCW1Oq_g7IavzhTIaa9/view?usp=sharing"
   },
   {
@@ -275,60 +273,69 @@ const ProjectsSection = () => {
       </h1>
 
       <div className="flex flex-col space-y-28">
-        {projects.map((project, idx) => {
+        {projects.map(({description, download, github, imageHeight, imageWidth, images, link, link2, name}, idx) => {
           return (
             <div key={idx}>
               <SlideUp offset="-300px 0px -300px 0px">
                 <div className="flex flex-col animate-slideUpCubiBezier animation-delay-2 md:flex-row md:space-x-12">
                   <div className="md:w-1/2">
-                    {project.images ? (
-                      project.images.map((image, imageIdx) => (
+                    {images ? (
+                      images.map((image, imageIdx) => (
                         <div key={imageIdx} className="mb-4">
                           <Image
                             src={image}
                             alt=""
-                            width={project.imageWidth}
-                            height={project.imageHeight}
+                            width={imageWidth}
+                            height={imageHeight}
                             className="rounded-xl shadow-xl hover:opacity-70"
                           />
                         </div>
                       ))
                     ) : (
                       <Image
-                        src={project.images}
+                        src={images}
                         alt=""
-                        width={project.imageWidth}
-                        height={project.imageHeight}
+                        width={imageWidth}
+                        height={imageHeight}
                         className="rounded-xl shadow-xl hover:opacity-70"
                       />
                     )}
                   </div>
                   <div className="mt-8 md:w-1/2">
-                    <h1 className="text-4xl font-bold mb-6">{project.name}</h1>
-                    
+                    <h1 className="text-4xl font-bold mb-6">{name}</h1>
+
                     {/* Links Section Moved Here */}
                     <div className="flex flex-row align-bottom space-x-4 mb-6">
-                      {project.github && (
-                        <Link href={project.github} target="_blank">
+                      {github && (
+                        <Link href={github} target="_blank">
                           <span className="flex items-center hover:-translate-y-1 transition-transform cursor-pointer">
-                            <BsGithub size={30} />
+                            <BsGithub size={25} />
                             <span className="ml-2">GitHub</span>
                           </span>
                         </Link>
                       )}
-                      {project.link && (
-                        <Link href={project.link} target="_blank">
+                        {link2 && (
+                            <Link href={link2} target="_blank">
+                             <span className="flex items-center hover:-translate-y-1 transition-transform cursor-pointer">
+                               <BsGithub size={25} />
+                               <span className="ml-2">GA repository</span>
+                             </span>
+                            </Link>
+                        )}
+
+                      {link && (
+                        <Link href={link} target="_blank">
                           <span className="flex items-center hover:-translate-y-1 transition-transform cursor-pointer">
-                            <BsYoutube size={30} />
+                            <BsYoutube size={25} />
                             <span className="ml-2">Watch Demo</span>
                           </span>
                         </Link>
                       )}
-                      {project.download && (
-                        <Link href={project.download} target="_blank">
+                      {download && (
+                        <Link href={download} target="_blank">
                           <span className="flex items-center hover:-translate-y-1 transition-transform cursor-pointer">
                             <BsDownload size={25} />
-                            <span className="ml-2">Download for Android</span>
+                            <span className="ml-2">Download for Windows</span>
                           </span>
                         </Link>
                       )}
@@ -336,9 +343,9 @@ const ProjectsSection = () => {
 
                     {/* Description Section */}
                     <div className="text-xl leading-7 mb-4 text-neutral-600 dark:text-neutral-400">
-                      {typeof project.description === "string"
-                        ? project.description
-                        : project.description}
+                      {typeof description === "string"
+                        ? description
+                        : description}
                     </div>
                   </div>
                 </div>
