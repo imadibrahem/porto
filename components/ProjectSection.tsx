@@ -209,8 +209,8 @@ const projects = [
     images: ["/MurusGalicus_StartWindow.jpg", "/MurusGalicus_GamePlay.jpg"], // Array of images
     github: "https://github.com/imadibrahem/Murus-Galicus-game",
     link: "",
-    link2: "https://github.com/imadibrahem/Murus-Galicus-game",
-    download:"https://drive.google.com/file/d/17Fe2uYYlYXve7ehwUpD0jpr_5iZq2hnC/view?usp=sharing"
+    link2: "https://github.com/imadibrahem/Murus-Galicus",
+    download:"https://github.com/imadibrahem/Murus-Galicus-Windows-installer"
   },
   {
     imageWidth: 500,  
