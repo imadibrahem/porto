@@ -183,27 +183,27 @@ const ProjectDescription = () => {
 const ProjectDescription2 = () => {
   return (
     <div>
-      <p>Sami&apos;s List is an Android App designed with Kotlin tailored for a more organized shopping journey.</p>
-      <p>It transforms the shopping experience with a user-friendly interface that allows users to explore and locate products with ease.</p>
+      <p>CampusComforts is a cross-platform mobile and web application designed during my internship at the university to enhance student life at TU Berlin by encouraging mindful breaks and better campus exploration.</p>
+      <p>Developed with <b>Flutter</b> for the frontend and <b>Spring Boot</b> with <b>PostgreSQL</b> for the backend, the app combines intelligent route planning with personalized activity suggestions.</p>
       <br></br>
-      <p>The App allows users with tools for a streamlined shopping process, featuring a pre-visit checklist and in-store assistance, ensuring a quick, efficient, and enjoyable experience.</p>
-      <br></br>
-      <h1 className="text-1xl font-bold mb-6">Home Screen Features:</h1>
-      <ul>
-        <li>&apos;Smart Search&apos; for instant product searches, aggregates sale items, and weekly flyers.</li>
-        <li>The category shortcuts, when clicked, display all items within that category, allowing users to easily add items to their list or view detailed information.</li>
+      <h1 className="text-1xl font-bold mb-6">Key Features:</h1>
+      <ul className="list-disc pl-5">
+        <li><h1>Smart Route Planning:</h1>Using a genetic algorithm and the OpenRouteService API, the app generates optimized walking routes between university buildings. Routes guide users through meaningful campus points of interest (POIs) based on distance, similarity, and individual preferences</li>
+          <li><h1>AI-Powered Activity Suggestions:</h1>A PyTorch-based neural network suggests short wellness activities (Micro-Activities) at POIs. These are tailored to real-time weather, time of day, and user feedback, promoting healthy routines between classes. </li>
+          <li><h1>Dynamic Learning:</h1>User interactions (likes on activities) train the AI in-place, making future suggestions increasingly relevant.</li>
+          <li><h1>Admin Interface:</h1>A web-based admin tool simplifies POI management, including adding/editing locations with the help of an interactive coordinate picker, and Adding pictures and description.</li>
       </ul>
       <br></br>
-      <h1 className="text-1xl font-bold mb-6">Checklist Screen Features:</h1>
-      <p>Includes a &apos;Dynamic Checklist&apos; where the added items are displayed with their quantity and price. &apos;In-Store Navigation&apos; aids in locating and checking off items, with automatic updates to the estimated total bill as items are found.</p>
+      <h1 className="text-1xl font-bold mb-6">Technologies Used:</h1>
+      <p>Flutter · Java Spring Boot · PostgreSQL · PyTorch · OpenRouteService API</p>
     </div>
   );
 };
 
 const projects = [
   {
-    imageWidth: 425,
-    imageHeight: 425,
+    imageWidth: 430,
+    imageHeight: 430,
     name: "'Murus Gallicus' AI – Game & Genetic Algorithm Optimization",
     description: <ProjectDescription />,
     images: ["/MurusGalicus_StartWindow.jpg", "/MurusGalicus_GamePlay.jpg"], // Array of images
@@ -213,15 +213,15 @@ const projects = [
     download:"https://github.com/imadibrahem/Murus-Galicus-Windows-installer"
   },
   {
-    imageWidth: 500,  
-    imageHeight: 500, 
-    name: "Sami's List Andriod App",
+    imageWidth: 300,
+    imageHeight: 300,
+    name: "CampusComforts App",
     description: <ProjectDescription2 />,
-    images: ["/sa.png", "/fa2.png"], // Array of images
-    github: "https://github.com/sami23ibrahim/ShoPping-List-APP",
-    link: "https://www.youtube.com/watch?v=D4aVstpxR5M",
+    images: ["/rout.png", "/microActions1.jpg", "/microActions2.jpg"], // Array of images
+    github: "",
+    link: "",
     link2: "",
-    download:"https://drive.google.com/file/d/1fx0gpO0AlnnhKdCW1Oq_g7IavzhTIaa9/view?usp=sharing"
+    download:""
   },
   {
     imageWidth: 800,  
